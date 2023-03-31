@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+
+
+
+.wrappernav{
+@apply bg-gray-200 lg:bg-white w-[390px] h-[full] absolute left-[-800px]
+lg:w-[100%] font-sans; 
+}  
+
+#menu-primary{
+@apply flex flex-col ml-10  gap-8 pt-5 
+lg:flex lg:flex-row  lg:justify-center
+}
+
+.sub-menu>li>ul>li{
+@apply ml-5 lg:ml-0 
+}
+
+.sub-menu>li{
+@apply leading-10 lg:leading-7
+} 
+
+#menu-primary> li > ul{
+@apply  lg:bg-white lg:border-2 border-white  lg:grid lg:grid-cols-3 lg:grid-rows-1 
+lg:h-[360px] lg:w-[690px] lg:absolute lg:p-8 lg:-ml-16 lg:hidden
+}
+
+#menu-item-909:hover ul{
+@apply block lg:grid
+}
+
+#menu-primary>li>ul>li>a{
+@apply  text-blue-800  lg:text-blue-700  font-bold 
+} 
+
+#menu-item-936{
+@apply lg:mt-4
+}
+
+.wrappernav #menu-item-937{
+@apply lg:absolute lg:right-40 lg:bottom-24
+}  
+
+ 
+.menu-btn{
+@apply absolute  right-5 lg:hidden; 
+}
+    
+.close-btn{
+@apply absolute  right-5 lg:hidden; 
+}
+    
+#menu-btn:checked + .wrappernav{
+@apply left-0 transition-all;
+}
+
+ 
+#menu-btn, #close-btn{
+@apply hidden;
+}        
+
+
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+/* #menu-btn,#close-btn{
+@apply hidden;
+}  */
+
+/* .wrappernav{
+@apply  bg-yellow-100 w-[380px] top-0 bottom-0 right-0 absolute hidden
+lg:w-[100%] lg:h-[60px] lg:block
+} 
+#menu-item-909{
+    @apply bg-slate-500
+}    */
+
+/* left-[-800px]  */
+
+/* #menu-primary{
+@apply flex flex-col ml-10  gap-8 pt-5 
+lg:flex lg:flex-row  lg:justify-center 
+}   
+   */
+/* .sub-menu>li>ul>li{
+@apply ml-5 lg:ml-0 
+}  
+
+.sub-menu>li{
+@apply leading-10 lg:leading-7
+}    */
+
+/* #menu-primary> li > ul{
+@apply  lg:bg-slate-50 lg:border-2 border-white  lg:grid lg:grid-cols-3 lg:grid-rows-1 
+lg:h-[360px] lg:w-[690px] lg:absolute lg:p-8 lg:-ml-16 lg:hidden
+}   */
+   
+/* #menu-item-909:hover ul{
+@apply block lg:grid
+} 
+
+#menu-primary>li>ul>li>a{
+@apply  text-blue-800  lg:text-blue-700  font-bold 
+}  
+
+#menu-item-936{
+@apply lg:mt-4
+}
+
+.wrappernav #menu-item-937{
+@apply lg:absolute lg:right-40 lg:bottom-24
+}    */
+
+/* .close-btn{
+@apply 
+} */
+
+/* .menu-btn{
+@apply absolute right-0 ;
+} 
+
+#menu-btn:checked  .wrappernav{
+@apply block ; 
+}   */
+
+
+
+
+
+
+/* .nav-links{
+@apply flex flex-col  bg-slate-100 w-[380px] h-[1020px] top-0 left-0
+lg:w-[100%] lg:h-[80px]
+} 
+
+#menu-primary{
+@apply flex flex-col ml-10 gap-8 
+lg:flex lg:flex-row  lg:justify-center  lg:mt-6 lg:space-x-16
+
+}
+bg-red-200  absolute w-[380px]  top-0 bottom-0
+.close-btn{
+@apply flex justify-end mr-14 text-3xl mt-8 lg:hidden
+}
+
+/* #menu-primary{
+    @apply text-amber-800 grid  h-full w-full 
+} */
+
+
+ 
+
+
+
+/*  */
+
+
+/* .wrappernav{
+    @apply bg-gray-100 w-[380px]
+    lg:w-[100%] lg:h-[80px] 
+    }    
+    
+    #menu-primary{
+    @apply flex flex-col ml-10 gap-8
+    lg:flex lg:flex-row  lg:justify-center pt-6
+    lg:gap-8
+    }  
+    
+    
+    /* .sub-menu>li>ul>li{
+    @apply ml-5 lg:ml-0 
+    } 
+    
+    .sub-menu>li{
+    @apply leading-10 
+    } */
+    
+    
+    /* #menu-primary>li>ul{
+    @apply gap-5 lg:grid lg:grid-cols-3 lg:grid-rows-1 
+    } 
+           
+    #menu-primary>li>ul>li>a{
+    @apply  text-blue-800  lg:text-blue-800 mt-11 font-bold lg:text-lg 
+    } 
+    
+    
+     
+    .close-btn{
+    @apply flex justify-end pt-5  mr-5 lg:hidden
+    } */ 
