@@ -4,7 +4,7 @@
 
 
 .wrappernav{
-@apply bg-gray-200 lg:bg-green-700 w-[390px] h-[full] absolute left-[-800px]
+@apply bg-gray-200 lg:bg-white w-[390px] h-[full] absolute left-[-800px] lg:left-[0px] 
 lg:w-[100%] lg:h-[60px] font-sans; 
 }  
 
@@ -47,7 +47,7 @@ lg:h-[360px] lg:w-[690px] lg:absolute lg:p-8 lg:-ml-16 lg:hidden
 @apply absolute  right-5 lg:hidden; 
 } 
     
- .close-btn{
+.close-btn{
 @apply absolute  right-5 lg:hidden; 
 } 
     
@@ -55,10 +55,9 @@ lg:h-[360px] lg:w-[690px] lg:absolute lg:p-8 lg:-ml-16 lg:hidden
 @apply left-0 transition-all;
 } 
 
-  
 #menu-btn, #close-btn{
 @apply hidden;
-}         
+}     
 
 
 @tailwind utilities;
